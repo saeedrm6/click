@@ -1,0 +1,58 @@
+.newslidebox .module-thumb{
+    height:400px !important;
+    overflow: hidden;
+    margin-right: 0;
+    float: right;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+.newslidebox .module-thumb figure{
+    height: 263px;
+}
+.customslider .module-thumb{
+    height:400px;
+}
+.customslider .module-thumb figure{
+    height: 285px;
+}
+.customslider .slide-caption{
+    height:116px;
+}
+.rightboxcustom .slide-caption{
+    height:100px;
+}
+.rightboxcustom .module-thumb figure{
+    height:91px;
+}
+.rightboxcustom .module-thumb .slide-caption{
+    padding:10px;
+}
+.Editor-suggestion .container-fluid{
+    padding: 0px 40px 30px;
+}
+.Editor-suggestion .thumbnail > img, .thumbnail a > img{
+    height:150px;
+}
+.Editor-suggestion .container-fluid{
+    padding: 0px 40px 0px;
+    margin: 0px auto 10px;
+}
+.Editor-suggestion .item{
+    background: #fff;
+    border-radius: 7px;
+}
+.Editor-suggestion .item .thumbnail{
+    border:none;
+}
+.Editor-suggestion .owl-nav{
+    position: absolute;
+    top:-65px;
+    left:0;
+}
+.Editor-suggestion .item .caption{
+    padding: 0px 10px;
+}
+.news-caption{
+    margin-bottom: 5px;
+}
