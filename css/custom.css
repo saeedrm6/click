@@ -56,3 +56,110 @@
 .news-caption{
     margin-bottom: 5px;
 }
+.owl-theme .owl-nav [class*=owl-]{
+    float: left !important;
+}
+.icon-container{
+    width:140px;
+    height: 140px;
+    border-radius: 50%;
+    color: #ecf0f1;
+    background: rgba(0,0,0,.4);
+    position: relative;
+    border:5px solid rgba(236, 240, 241,0.6);
+    float: left;
+    margin-top:67px;
+}
+.icon-container i{
+    position: absolute;
+    left: 31%;
+    top: 21%;
+}
+.video-cat{
+    color: #fff;
+    background: rgba(199, 21, 133,0.6);
+    padding: 1px 9px;
+    width: 70px;
+}
+.video-cat h3{
+    font-size: 15px;
+}
+#video-minpreview a{
+    color: #fff;
+    font-size:50px;
+}
+#videos{
+    position: relative;
+}
+.video-pattern{
+    transition: 0.4s all ease-in-out;
+    -webkit-transition: 0.4s all ease-in-out;
+    -moz-transition: 0.4s all ease-in-out;
+    -o-transition: 0.4s all ease-in-out;
+}
+.video-pattern:hover{
+    /*background: rgba(199, 21, 133,0.1);*/
+    background-image: -webkit-gradient(
+            linear, right top, left bottom, from(rgba(199, 21, 133,0.6)),
+            to(rgba(0, 0, 0, 0.4))
+    );
+
+    transition: 0.4s all ease-in-out;
+    -webkit-transition: 0.4s all ease-in-out;
+    -moz-transition: 0.4s all ease-in-out;
+    -o-transition: 0.4s all ease-in-out;
+}
+
+/*.video-item.big:hover{*/
+    /*background-color: rgba(199, 21, 133,0.9) !important;*/
+/*}*/
+
+.thumb-videoes figure:before{
+    content: "";
+}
+.thumb-videoes figure:hover{
+    content: "\f04b";
+    font-family: FontAwesome;
+    /*position: absolute;*/
+    top: 20%;
+    /*margin: 0 auto;*/
+    z-index: 10;
+    /*right: 40%;*/
+    background-color: transparent;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+}
+.thumb-videoes figure:after{
+    height:80%;
+}
+.titleGroup h2{
+    width: 20%;
+}
+.thumb-videoes figure:hover > .video-pattern{
+    background: none!important;
+}
+.owl-carousel .owl-item img{
+    height:160px;
+}
+.owl-carousel .item{
+    position: relative;
+}
+.itemcat{
+    position: absolute;
+    left: 4%;
+    top: 7%;
+    padding: 5px;
+    background: #690065;
+    border-radius: 5px;
+}
+.itemcat a{
+    color: #fff;
+}
+.irancel:hover > .video-pattern{
+    background-image: none;
+}

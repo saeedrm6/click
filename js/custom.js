@@ -19,11 +19,37 @@ jQuery(document).ready(function(){
 });
 
 
+$(document).ready(function() {
+                    var owl = $('.owl-carousel');
+                    owl.owlCarousel({
+                        autoplay:true,
+                        autoplayTimeout:1500,
+                        autoplayHoverPause:true,
+                        rtl: true,
+                        margin: 10,
+                        nav: true,
+                        loop: true,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            600: {
+                                items: 3
+                            },
+                            1000: {
+                                items: 4
+                            }
+                        }
+                    })
+                })
 
-/*main page Editor's suggestion carousel*/
-  $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 6000
-    })
-  });
+$(document).ready(function(){
+  $( ".owl-prev").html('<i class="fa fa-angle-left" aria-hidden="true"></i>');
+  $( ".owl-next").html('<i class="fa fa-angle-right" aria-hidden="true"></i>');
+})
 
+$(document).ready(function(){
+    $(".irancel").mouseover(function(){
+        $(".video-pattern").css("background-image", "none");
+    });
+});

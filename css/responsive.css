@@ -1,0 +1,14 @@
+@media only screen and (max-width: 767px){
+    #video-minpreview a{
+        font-size: 28px;
+    }
+    .video-item.big{
+        height:954px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    #video-minpreview a{
+        font-size: 35px;
+    }
+}
